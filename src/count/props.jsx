@@ -1,14 +1,20 @@
+import './Count.css'
+
 const Main = (props) => {
 
-    const style = {
-        padding : "5px"
-    }
+    
     return ( 
-        <div>
-        <button style={style} onClick={props.addition}>Add</button>
-        <h3>{props.count}</h3>
-        <button style={style} onClick={props.subtract}>SUb</button>
-    </div>
+        <section style={{ margin: '4rem 0' }}>
+<h1>Simple Counter App</h1>
+
+        <h1>{props.count}</h1>
+
+     <div className="btn">
+     <button onClick={props.addition}>Add</button>
+        <button onClick={props.reset}>Reset</button>
+        <button onClick={props.subtract}>Sub</button>
+     </div>
+        </section>
      );
 }
  
