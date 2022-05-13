@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vh;
+  text-align: center;
+  font-family: cursive;
+}
+
+button {
+  background-color: purple;
+  color: white;
+border: none;
+}
+
+
+
+
